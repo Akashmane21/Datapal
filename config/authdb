@@ -1,0 +1,15 @@
+import firebase from 'firebase';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBsFiK1vA947CbkFviPE6VbZZs6ppIDDJ0",
+    authDomain: "messanger-a374d.firebaseapp.com",
+    projectId: "messanger-a374d",
+    storageBucket: "messanger-a374d.appspot.com",
+    messagingSenderId: "78406157035",
+    appId: "1:78406157035:web:6b1f1ad65fd94f1a03f4ae",
+    measurementId: "G-3J877BRERK"
+  };
+
+const firebaseDB = firebase.initializeApp(firebaseConfig);
+// const analytics = firebase.analytics();
+export  default firebaseDB ;
